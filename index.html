@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar">
+    <nav class="navbar" id="0">
       <div class="title">
         <h2>Infrastruktur Internet</h2>
       </div>
@@ -39,27 +39,266 @@
     </section>
     <!-- materi 1 -->
     <section class="content-section" id="1">
-      <h1>INTERNET</h1>
+      <h1 class="content-title">INTERNET</h1>
+      <div class="content-teks">
+        <p class="paragraf-1">
+          <strong>Internet</strong> adalah jaringan global yang terdiri dari
+          jutaan komputer dan perangkat yang terhubung satu sama lain
+          menggunakan protokol komunikasi standar, yaitu Internet Protocol (IP).
+          Ketika pengguna mengakses informasi atau layanan di internet, data
+          ditransmisikan dalam bentuk paket-paket kecil yang melewati berbagai
+          jaringan hingga mencapai tujuannya.
+        </p>
+        <p class="paragraf-2">Secara umum, cara kerja internet melibatkan:</p>
+        <ol>
+          <li>
+            <p>
+              <strong>Client (Pengguna)</strong>: Menggunakan perangkat seperti
+              komputer atau smartphone untuk meminta data.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Server</strong>: Komputer yang menyediakan layanan atau
+              data, seperti situs web.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Paket Data</strong>: Informasi yang dikirim dalam
+              paket-paket kecil menggunakan TCP/IP (Transmission Control
+              Protocol/Internet Protocol).
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Rute Jaringan</strong>: Paket data melewati router,
+              switch, dan perangkat jaringan lainnya hingga sampai ke tujuan.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Respons</strong>: Server mengirim balasan dalam bentuk
+              paket data kembali ke client.
+            </p>
+          </li>
+        </ol>
+        <p class="source">
+          Source :
+          https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
+        </p>
+      </div>
     </section>
     <!-- materi 2 -->
     <section class="content-section" id="2">
-      <h1>HTTP</h1>
+      <h1 class="content-title">HTTP / HTTPS</h1>
+      <div class="content-teks">
+        <p class="paragraf-1">
+          <strong>Hypertext transfer protocol (HTTP)</strong> adalah sebuah
+          protokol atau seperangkat aturan komunikasi untuk komunikasi
+          klien-server. Saat Anda mengunjungi situs web, peramban Anda
+          mengirimkan permintaan HTTP ke server web, yang merespons dengan
+          respons HTTP( HTTP bekerja pada port 80 ). Singkatnya, protokol HTTP
+          adalah teknologi dasar yang mendukung komunikasi jaringan. Seperti
+          namanya,
+          <strong>hypertext transfer protocol secure (HTTPS)</strong> adalah
+          versi atau perpanjangan HTTP yang lebih aman. HTTPS bekerja pada port
+          443 dan memberikan keamanan tambahan dengan mengenkripsi data,
+          sehingga melindungi dari serangan peretas.
+        </p>
+        <p class="paragraf-2"><strong>Cara kerja HTTP:</strong></p>
+        <ol>
+          <li>
+            <p>Browser mengirimkan permintaan HTTP ke server.</p>
+          </li>
+          <li>
+            <p>
+              Server merespons dengan mengirimkan halaman web atau data yang
+              diminta.
+            </p>
+          </li>
+          <li>
+            <p>Browser menampilkan data tersebut kepada pengguna.</p>
+          </li>
+        </ol>
+        <p class="paragraf-3"><strong>Cara kerja HTTPS:</strong></p>
+        <ol>
+          <li>
+            <p>Klien dan server memulai koneksi SSL/TLS.</p>
+          </li>
+          <li>
+            <p>Browser memverifikasi sertifikat keamanan server.</p>
+          </li>
+          <li>
+            <p>
+              Data yang dikirimkan antara browser dan server dienkripsi untuk
+              memastikan kerahasiaan.
+            </p>
+          </li>
+        </ol>
+        <p class="source">Source : https://www.ssl.com/faqs/what-is-https/</p>
+      </div>
     </section>
+
     <!-- materi 3 -->
     <section class="content-section" id="3">
-      <h1>DOMAIN NAME</h1>
+      <h1 class="content-title">DOMAIN NAME</h1>
+      <div class="content-teks">
+        <p class="paragraf-1">
+          <strong>Domain Name</strong> adalah alamat yang digunakan untuk
+          mengidentifikasi suatu situs web di internet. Misalnya, domain
+          "example.com" digunakan untuk mengakses situs web tertentu tanpa harus
+          mengingat alamat IP-nya. Domain name berfungsi sebagai pengganti
+          alamat IP yang sulit diingat dan lebih memudahkan pengguna untuk
+          mengakses layanan di internet.
+        </p>
+        <p class="paragraf-2">
+          Nama domain terdiri dari beberapa bagian yang dipisahkan oleh titik:
+        </p>
+        <ol>
+          <li>
+            <p>
+              <strong>Top-level domain (TLD)</strong>: Merupakan bagian akhir
+              dari nama domain, seperti ".com", ".org", atau ".net".
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Second-level domain</strong>: Bagian utama dari nama
+              domain, seperti "google" dalam "google.com".
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Subdomain</strong>: Bagian opsional di depan domain utama,
+              seperti "mail" dalam "mail.google.com".
+            </p>
+          </li>
+        </ol>
+        <p class="source">
+          Source: https://www.icann.org/resources/pages/what-2012-02-25-en
+        </p>
+      </div>
     </section>
+
     <!-- materi 4 -->
     <section class="content-section" id="4">
-      <h1>HOSTING</h1>
+      <h1 class="content-title">HOSTING</h1>
+      <div class="content-teks">
+        <p class="paragraf-1">
+          <strong>Hosting</strong> adalah layanan penyewaan server yang
+          memungkinkan individu atau organisasi menyimpan file dan data situs
+          web mereka di server, sehingga situs web tersebut dapat diakses
+          melalui internet.
+        </p>
+        <p class="paragraf-2">Secara umum, cara kerja hosting melibatkan:</p>
+        <ol>
+          <li>
+            <p>
+              <strong>Pengguna</strong>: Mengunggah file situs web ke server
+              hosting.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Server Hosting</strong>: Server menyimpan file situs dan
+              memastikan situs tersebut tersedia dan dapat diakses oleh pengguna
+              di seluruh dunia.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Domain</strong>: Pengguna dapat mengakses situs melalui
+              nama domain yang terhubung dengan server hosting.
+            </p>
+          </li>
+        </ol>
+        <p class="source">
+          Source: https://www.godaddy.com/garage/what-is-web-hosting/
+        </p>
+      </div>
     </section>
+
     <!-- materi 5 -->
     <section class="content-section" id="5">
-      <h1>DOMAIN NAME SYSTEM</h1>
+      <h1 class="content-title">DOMAIN NAME SYSTEM (DNS)</h1>
+      <div class="content-teks">
+        <p class="paragraf-1">
+          <strong>Domain Name System (DNS)</strong> adalah sistem yang
+          menerjemahkan nama domain seperti "example.com" menjadi alamat IP yang
+          dapat digunakan oleh komputer untuk menemukan server yang tepat di
+          internet.
+        </p>
+        <p class="paragraf-2">
+          Cara kerja DNS melibatkan beberapa langkah berikut:
+        </p>
+        <ol>
+          <li>
+            <p><strong>Pengguna</strong> memasukkan nama domain di browser.</p>
+          </li>
+          <li>
+            <p>
+              <strong>Resolver DNS</strong> melakukan pencarian di sistem DNS
+              untuk menemukan alamat IP yang terkait dengan nama domain
+              tersebut.
+            </p>
+          </li>
+          <li>
+            <p>
+              Setelah alamat IP ditemukan, browser menggunakan IP tersebut untuk
+              terhubung ke server yang menyimpan situs web yang diminta.
+            </p>
+          </li>
+        </ol>
+        <p class="source">
+          Source: https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/
+        </p>
+      </div>
     </section>
+
     <!-- materi 6 -->
     <section class="content-section" id="6">
-      <h1>BROWSER</h1>
+      <h1 class="content-title">BROWSER</h1>
+      <div class="content-teks">
+        <p class="paragraf-1">
+          <strong>Browser</strong> adalah perangkat lunak yang memungkinkan
+          pengguna untuk mengakses dan menampilkan informasi di internet.
+          Browser menerjemahkan kode HTML, CSS, dan JavaScript yang ada di
+          server menjadi tampilan grafis yang bisa dimengerti dan digunakan oleh
+          manusia.
+        </p>
+        <p class="paragraf-2">
+          Cara kerja browser melibatkan beberapa langkah:
+        </p>
+        <ol>
+          <li>
+            <p>Pengguna memasukkan URL atau melakukan pencarian di browser.</p>
+          </li>
+          <li>
+            <p>
+              Browser mengirimkan permintaan HTTP atau HTTPS ke server yang
+              menyimpan halaman web.
+            </p>
+          </li>
+          <li>
+            <p>
+              Server mengirimkan respons dalam bentuk file HTML, CSS, dan
+              JavaScript kepada browser.
+            </p>
+          </li>
+          <li>
+            <p>
+              Browser menerjemahkan dan menampilkan konten tersebut kepada
+              pengguna.
+            </p>
+          </li>
+        </ol>
+        <p class="source">
+          Source: https://developer.mozilla.org/en-US/docs/Web/Browser
+        </p>
+      </div>
     </section>
+
+    <a href="#0" class="back-button">△</a>
   </body>
 </html>
