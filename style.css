@@ -17,6 +17,7 @@ body {
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid black;
+  font-size: calc(1rem + 0.5vw);
 }
 
 .hero {
@@ -101,7 +102,7 @@ body {
   padding-top: 8px;
 }
 .source {
-  padding-top: 90px;
+  padding-top: 40px;
 }
 
 .back-button {
@@ -120,4 +121,80 @@ body {
   font-size: 16px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease;
+}
+
+/* Media Query untuk perangkat tablet */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: calc(1rem + 1vw);
+  }
+}
+
+/* Media Query untuk perangkat ponsel */
+@media (max-width: 480px) {
+  .navbar h2 {
+    font-size: 80%;
+  }
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 2px 16px;
+  }
+  .hero-teks{
+    font-size: 22px;
+  }
+  .hero-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: 
+    list-style-type: none;
+    font-size: 16px;
+    gap: 12px;
+  padding-left: 0px;
+  }
+  .hero-item a{
+    padding: 5px;
+    font-size: 12px;
+    background-color: #E5FCFC;
+    border-radius: 2px;
+  }
+  .hero-content-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+  }
+  .hero-image {
+    width: 100%;
+    max-width: 90%; /* Memastikan gambar tidak melampaui kontainer */
+    height: auto;
+  }
+  .content-section {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 4rem auto;
+    padding: 2rem;
+  }
+  .content-section h1 {
+    font-size: 24px; /* Mengurangi ukuran font */
+  }
+
+  .content-teks {
+    max-width: 100%; /* Memastikan teks memenuhi layar */
+    font-size: 14px; /* Mengurangi ukuran font agar lebih terbaca */
+  }
+
+  .content-teks p {
+    line-height: 1.8rem; /* Menyesuaikan jarak baris agar lebih rapat */
+  }
+  .source{
+    text-align: start;
+  }
 }
